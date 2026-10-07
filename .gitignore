@@ -1,0 +1,37 @@
+.idea/
+.vscode/
+node_modules/
+dist/
+target/
+*.log
+.env
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Test database
+test.db
+*.db
+
+# macOS
+.DS_Store
+
+# Coverage
+.coverage
+htmlcov/
+
+# Terraform
+.terraform.lock.hcl
+crash.log
+
+# Secrets
+*.pem
+*.key
